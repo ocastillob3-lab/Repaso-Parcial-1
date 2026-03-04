@@ -56,6 +56,21 @@ public class Main {
 	}
 
     // MÉTODOS AQUÍ ABAJO
+	
+	public static void ejercicio1() {
+
+	    System.out.print("Ingrese n: ");
+	    int n = sc.nextInt();
+	    int suma = 0;
+
+	    for (int i = 1; i <= n; i++) {
+	        if (i % 4 == 0) {
+	            suma += i;
+	        }
+	    }
+
+	    System.out.println("La suma de números divisibles entre 4 es: " + suma);
+	}
 }
 	
 }
