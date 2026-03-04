@@ -57,6 +57,8 @@ public class Main {
 
     // MÉTODOS AQUÍ ABAJO
 	
+	// Nuemeros divisibles
+	
 	public static void ejercicio1() {
 
 	    System.out.print("Ingrese n: ");
@@ -70,7 +72,24 @@ public class Main {
 	    }
 
 	    System.out.println("La suma de números divisibles entre 4 es: " + suma);
+	 }
+	
+	// 2 Factorial
+	    
+	    public static void ejercicio2() {
+
+	        System.out.print("Ingrese n: ");
+	        int n = sc.nextInt();
+	        long factorial = 1;
+
+	        for (int i = 1; i <= n; i++) {
+	            factorial *= i;
+	        }
+
+	        System.out.println("El factorial es: " + factorial);
+	    }
 	}
+
 }
 	
 }
