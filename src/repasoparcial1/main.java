@@ -254,4 +254,28 @@ public static void ejercicio2() {
 
      }
  }
+ 
+ // 13 Cantidad de dígitos pares
+ public static void ejercicio13() {
+
+     System.out.print("Ingrese numero: ");
+     int n = sc.nextInt();
+
+     int contador = 0;
+
+     while (n != 0) {
+
+         int dig = n % 10;
+
+         if (dig % 2 == 0) {
+             contador++;
+         }
+
+         n = n / 10;
+     }
+
+     System.out.println("Digitos pares: " + contador);
+ }
+
+
     }
