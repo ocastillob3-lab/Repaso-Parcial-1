@@ -276,6 +276,28 @@ public static void ejercicio2() {
 
      System.out.println("Digitos pares: " + contador);
  }
+ 
+ // 14 Numero triangular
+ public static void ejercicio14() {
 
+     System.out.print("Ingrese numero: ");
+     int n = sc.nextInt();
 
+     int suma = 0;
+     int k = 1;
+
+     while (suma < n) {
+
+         suma += k;
+         k++;
+
+     }
+
+     if (suma == n) {
+         System.out.println("Es triangular");
+     } else {
+         System.out.println("No es triangular");
+     }
+ }
+ 
     }
