@@ -8,6 +8,8 @@ public class Main {
 
 	    public static void main(String[] args) {
 
+	        ejercicio1();
+
 	    }
 
 	    // 1 suma divisible
@@ -407,4 +409,14 @@ public static void ejercicio2() {
      }
  }
 
-    }
+ // 20  Convertir celsius a fahrenheit
+ public static void ejercicio20() {
+
+     System.out.print("Ingrese temperatura Celsius: ");
+     double c = sc.nextDouble();
+
+     double f = (c * 9 / 5) + 32;
+
+     System.out.println("Fahrenheit: " + f);
+ }
+}
