@@ -344,4 +344,32 @@ public static void ejercicio2() {
      }
  }
  
+ // 17  Potencia de 2
+ public static void ejercicio17() {
+
+     System.out.print("Ingrese numero: ");
+     int n = sc.nextInt();
+
+     boolean esPotencia = false;
+
+     int valor = 1;
+
+     while (valor <= n) {
+
+         if (valor == n) {
+             esPotencia = true;
+             break;
+         }
+
+         valor *= 2;
+
+     }
+
+     if (esPotencia) {
+         System.out.println("Es potencia de 2");
+     } else {
+         System.out.println("No es potencia de 2");
+     }
+ }
+
     }
