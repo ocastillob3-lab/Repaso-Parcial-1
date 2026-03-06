@@ -191,4 +191,35 @@ public static void ejercicio2() {
              System.out.println("Numero fuera de rango");
      }
  }
+ 
+ // 10 Calculadora con switch
+ public static void ejercicio10() {
+
+     System.out.print("Opcion (1-3): ");
+     int op = sc.nextInt();
+
+     System.out.print("Numero 1: ");
+     int a = sc.nextInt();
+
+     System.out.print("Numero 2: ");
+     int b = sc.nextInt();
+
+     switch (op) {
+
+         case 1:
+             System.out.println("Resultado: " + (a + b));
+             break;
+
+         case 2:
+             System.out.println("Resultado: " + (a - b));
+             break;
+
+         case 3:
+             System.out.println("Resultado: " + (a * b));
+             break;
+
+         default:
+             System.out.println("Opcion invalida");
+     }
+ }
     }
