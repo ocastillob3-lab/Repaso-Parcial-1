@@ -391,5 +391,20 @@ public static void ejercicio2() {
 
      System.out.println("Numero invertido: " + invertido);
  }
+ 
+ // 19  Suma par o impar
+ public static void ejercicio19() {
+
+     System.out.print("Ingrese n: ");
+     int n = sc.nextInt();
+
+     int suma = n * (n + 1) / 2;
+
+     if (suma % 2 == 0) {
+         System.out.println("La suma es PAR");
+     } else {
+         System.out.println("La suma es IMPAR");
+     }
+ }
 
     }
