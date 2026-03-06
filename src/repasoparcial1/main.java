@@ -331,4 +331,17 @@ public static void ejercicio2() {
      }
  }
  
+//16 Multiplos de 6
+ public static void ejercicio16() {
+
+     System.out.print("Ingrese n: ");
+     int n = sc.nextInt();
+
+     for (int i = 1; i <= n; i++) {
+
+         System.out.println(i * 6);
+
+     }
+ }
+ 
     }
