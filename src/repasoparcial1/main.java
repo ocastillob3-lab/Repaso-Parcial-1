@@ -72,4 +72,31 @@ public static void ejercicio2() {
     System.out.println("Negativos: " + negativos);
     System.out.println("Ceros: " + ceros);
 }
+ 
+//4 Promedio Numeros Pares 
+ public static void ejercicio4() {
+
+     System.out.print("Ingrese n: ");
+     int n = sc.nextInt();
+
+     int suma = 0;
+     int contador = 0;
+
+     for (int i = 1; i <= n; i++) {
+
+         if (i % 2 == 0) {
+             suma += i;
+             contador++;
+         }
+
+     }
+
+     if (contador > 0) {
+         double promedio = (double) suma / contador;
+         System.out.println("Promedio pares: " + promedio);
+     }
+ }
+
+ 
+ 
     }
