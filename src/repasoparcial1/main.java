@@ -372,4 +372,24 @@ public static void ejercicio2() {
      }
  }
 
+//18 Numero invertido
+ public static void ejercicio18() {
+
+     System.out.print("Ingrese numero: ");
+     int n = sc.nextInt();
+
+     int invertido = 0;
+
+     while (n != 0) {
+
+         int dig = n % 10;
+
+         invertido = invertido * 10 + dig;
+
+         n = n / 10;
+     }
+
+     System.out.println("Numero invertido: " + invertido);
+ }
+
     }
