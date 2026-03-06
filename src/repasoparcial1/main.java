@@ -127,4 +127,19 @@ public static void ejercicio2() {
          System.out.println("No es multiplo de 7 ni 11");
      }
  }
+ 
+ // 7 Numeros divisibles
+ public static void ejercicio7() {
+
+     System.out.print("Ingrese n: ");
+     int n = sc.nextInt();
+
+     for (int i = 1; i <= n; i++) {
+
+         if (i % 3 == 0 && i % 2 != 0) {
+             System.out.println(i);
+         }
+
+     }
+ }
     }
