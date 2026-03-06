@@ -5,10 +5,49 @@ import java.util.Scanner;
 public class Main {
 
 	    static Scanner sc = new Scanner(System.in);
-
+	    
 	    public static void main(String[] args) {
 
-	        ejercicio1();
+	    	int op;
+
+	        do {
+
+	            System.out.println("\nSeleccione ejercicio (1-20)");
+	            System.out.println("0. Salir");
+	            op = sc.nextInt();
+
+	            switch(op) {
+
+	                case 1: ejercicio1(); break;
+	                case 2: ejercicio2(); break;
+	                case 3: ejercicio3(); break;
+	                case 4: ejercicio4(); break;
+	                case 5: ejercicio5(); break;
+	                case 6: ejercicio6(); break;
+	                case 7: ejercicio7(); break;
+	                case 8: ejercicio8(); break;
+	                case 9: ejercicio9(); break;
+	                case 10: ejercicio10(); break;
+	                case 11: ejercicio11(); break;
+	                case 12: ejercicio12(); break;
+	                case 13: ejercicio13(); break;
+	                case 14: ejercicio14(); break;
+	                case 15: ejercicio15(); break;
+	                case 16: ejercicio16(); break;
+	                case 17: ejercicio17(); break;
+	                case 18: ejercicio18(); break;
+	                case 19: ejercicio19(); break;
+	                case 20: ejercicio20(); break;
+
+	                case 0:
+	                    System.out.println("Programa finalizado");
+	                    break;
+
+	                default:
+	                    System.out.println("Opcion invalida");
+	            }
+
+	        } while(op != 0);
 
 	    }
 
