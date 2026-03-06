@@ -42,4 +42,34 @@ public static void ejercicio2() {
 
     System.out.println("Factorial: " + factorial);
         }
+
+
+ // 3 conteo positivos negativos
+ public static void ejercicio3() {
+
+    System.out.print("Cuantos numeros ingresara: ");
+    int n = sc.nextInt();
+
+    int positivos = 0;
+    int negativos = 0;
+    int ceros = 0;
+
+    for (int i = 1; i <= n; i++) {
+
+        System.out.print("Numero: ");
+        int num = sc.nextInt();
+
+        if (num > 0) {
+            positivos++;
+        } else if (num < 0) {
+            negativos++;
+        } else {
+            ceros++;
+        }
+    }
+
+    System.out.println("Positivos: " + positivos);
+    System.out.println("Negativos: " + negativos);
+    System.out.println("Ceros: " + ceros);
+}
     }
