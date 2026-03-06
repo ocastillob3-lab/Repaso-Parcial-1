@@ -158,4 +158,37 @@ public static void ejercicio2() {
          System.out.println("Noche");
      }
  }
+ 
+ // 9 Numeros romanos con switch
+ public static void ejercicio9() {
+
+     System.out.print("Ingrese numero (1-5): ");
+     int n = sc.nextInt();
+
+     switch (n) {
+
+         case 1:
+             System.out.println("I");
+             break;
+
+         case 2:
+             System.out.println("II");
+             break;
+
+         case 3:
+             System.out.println("III");
+             break;
+
+         case 4:
+             System.out.println("IV");
+             break;
+
+         case 5:
+             System.out.println("V");
+             break;
+
+         default:
+             System.out.println("Numero fuera de rango");
+     }
+ }
     }
