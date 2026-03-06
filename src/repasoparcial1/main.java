@@ -97,6 +97,34 @@ public static void ejercicio2() {
      }
  }
 
+//5 Suma de Dijitos 
+ public static void ejercicio5() {
+
+     System.out.print("Ingrese numero: ");
+     int n = sc.nextInt();
+
+     int suma = 0;
+
+     while (n != 0) {
+
+         suma += n % 10;
+         n = n / 10;
+
+     }
+
+     System.out.println("Suma de digitos: " + suma);
+ }
  
- 
+//6 Multiplo de 7 o 11
+ public static void ejercicio6() {
+
+     System.out.print("Ingrese numero: ");
+     int n = sc.nextInt();
+
+     if (n % 7 == 0 || n % 11 == 0) {
+         System.out.println("Es multiplo de 7 o 11");
+     } else {
+         System.out.println("No es multiplo de 7 ni 11");
+     }
+ }
     }
