@@ -222,4 +222,23 @@ public static void ejercicio2() {
              System.out.println("Opcion invalida");
      }
  }
+ 
+ // 11 Mayor menor diferencia
+ public static void ejercicio11() {
+
+     System.out.print("Numero a: ");
+     int a = sc.nextInt();
+
+     System.out.print("Numero b: ");
+     int b = sc.nextInt();
+
+     int mayor = Math.max(a, b);
+     int menor = Math.min(a, b);
+
+     int diferencia = Math.abs(a - b);
+
+     System.out.println("Mayor: " + mayor);
+     System.out.println("Menor: " + menor);
+     System.out.println("Diferencia: " + diferencia);
+ }
     }
