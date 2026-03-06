@@ -142,4 +142,20 @@ public static void ejercicio2() {
 
      }
  }
+ 
+ 
+ // 8 Determinar mañana tarde noche
+ public static void ejercicio8() {
+
+     System.out.print("Ingrese hora (0-23): ");
+     int hora = sc.nextInt();
+
+     if (hora >= 0 && hora <= 11) {
+         System.out.println("Mañana");
+     } else if (hora <= 18) {
+         System.out.println("Tarde");
+     } else {
+         System.out.println("Noche");
+     }
+ }
     }
