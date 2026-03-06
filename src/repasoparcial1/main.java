@@ -241,4 +241,17 @@ public static void ejercicio2() {
      System.out.println("Menor: " + menor);
      System.out.println("Diferencia: " + diferencia);
  }
+ 
+ // 12 tabla de división
+ public static void ejercicio12() {
+
+     System.out.print("Ingrese numero: ");
+     int n = sc.nextInt();
+
+     for (int i = 1; i <= 10; i++) {
+
+         System.out.println(n + " / " + i + " = " + (double) n / i);
+
+     }
+ }
     }
