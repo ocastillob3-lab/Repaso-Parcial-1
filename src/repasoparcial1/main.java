@@ -27,4 +27,19 @@ public class Main {
 	        System.out.println("Suma divisibles entre 4: " + suma);
 
 	    }
-	}
+	
+
+//2 Factorial
+public static void ejercicio2() {
+    System.out.print("Ingrese n: ");
+    int n = sc.nextInt();
+
+    long factorial = 1;
+
+    for (int i = 1; i <= n; i++) {
+        factorial *= i;
+    }
+
+    System.out.println("Factorial: " + factorial);
+        }
+    }
